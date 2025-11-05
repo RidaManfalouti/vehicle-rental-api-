@@ -1,0 +1,4 @@
+package com.example.location.controller;
+
+public class ReservationController {
+}
