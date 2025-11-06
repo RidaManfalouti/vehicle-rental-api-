@@ -19,7 +19,7 @@ public class ImpClient implements ClientService {
     @Override
     public List<Client> getAllClients() throws Exception {
         if (clientRepository.findAll().isEmpty()) {
-            throw new Exception("pas des clients exist");
+            throw new Exception("pas des clients existant");
         }
         return clientRepository.findAll();
     }
