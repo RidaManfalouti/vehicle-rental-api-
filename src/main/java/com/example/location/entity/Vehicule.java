@@ -19,7 +19,9 @@ public class Vehicule {
 
     private String marque;
     private String modele;
-    private double prixParJour;
-    private boolean disponible;
 
+    @Column(name = "prix_journalier")
+    private Double prixParJour;
+
+    private boolean disponible;
 }
