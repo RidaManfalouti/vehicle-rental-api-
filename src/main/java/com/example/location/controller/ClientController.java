@@ -1,7 +1,6 @@
 package com.example.location.controller;
 
 import com.example.location.entity.Client;
-import com.example.location.impService.ImpClient;
 import com.example.location.service.ClientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

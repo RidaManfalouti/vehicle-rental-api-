@@ -1,10 +1,7 @@
 package com.example.location.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
@@ -20,7 +17,6 @@ public class Vehicule {
     private String marque;
     private String modele;
 
-    @Column(name = "prix_journalier")
     private Double prixParJour;
 
     private boolean disponible;

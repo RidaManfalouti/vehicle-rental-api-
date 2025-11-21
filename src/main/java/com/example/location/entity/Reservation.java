@@ -20,6 +20,9 @@ public class Reservation {
     @ManyToOne
     private Vehicule vehicule;
 
+    @Enumerated(EnumType.STRING)
+    private StatusReservation statusReservation;
+
     @ManyToOne
     private Client client;
 

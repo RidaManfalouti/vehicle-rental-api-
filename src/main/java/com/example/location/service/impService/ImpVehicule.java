@@ -1,4 +1,4 @@
-package com.example.location.impService;
+package com.example.location.service.impService;
 
 import com.example.location.entity.Vehicule;
 import com.example.location.repository.VehiculeRepository;
